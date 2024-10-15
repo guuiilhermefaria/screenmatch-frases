@@ -6,6 +6,8 @@ import br.com.guilherme.screenmatch_frases.repository.FraseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Random;
+
 @Service
 public class FraseService {
     @Autowired
